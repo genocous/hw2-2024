@@ -57,7 +57,7 @@ div {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-width: 5px 2px 0 0;
+    border-width: 2px 5px 0 0;
 
     p {
         color: #C4C4C4;
@@ -92,7 +92,7 @@ footer {
     background-image: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000); 
     p {
         font-size: 20px;
-        position: right;
+        text-align: right;
         padding: 15px 15px 15px 0;
     }
 }
