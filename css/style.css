@@ -1,0 +1,80 @@
+/* Path: css/style.css */
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 42px;
+    padding: 15px;
+    color: #C4C4C4;
+}
+
+h2 {
+    font-size: 30px;
+    color: #C4C4C4;
+}
+
+p {
+    font-size: 24px;
+    padding: 10px 0 0 10px;
+    color: #707070;
+}
+
+img {
+    width: 250px;
+    position: center;
+    border:#ffffff 10px dashed;
+}
+
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: #ffffff 3px solid;
+}
+
+.introduction {
+    border-radius: 15px;
+    margin: 15px 0 0 0;
+    line-height: 2;
+}
+
+.red {
+    background-color: #FF0000;
+    text-align: right;
+    margin-left: 50px;
+    border: 0 0 2px 5px;
+}
+
+.blue {
+    background-color: #0000FF;
+    text-align: left;
+    margin-right: 50px;
+    border: 5px 2px 0 0;
+}
+
+.yellow{
+    background-color: #ffff00;
+    text-align: right;
+    margin-left: 50px;
+    border: 0 0 2px 5px;
+}
+
+.green {
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border: 2px 5px 0 0
+}
+
+footer {
+    border: #ffffff 5px solid;
+    background-image: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000); 
+    p {
+        font-size: 20px;
+        position: right;
+        padding: 15px 15px 15px 0;
+    }
+}
