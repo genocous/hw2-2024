@@ -73,10 +73,10 @@ div {
     text-align: right;
     margin-left: 50px;
     border-width: 0 0 2px 5px;
+}
 
-    p {
-        color: #707070;
-    }
+.yellow p {
+    color: #707070;
 }
 
 .green {
