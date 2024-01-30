@@ -1,38 +1,43 @@
 /* Path: css/style.css */
 body {
-    font-family: Arial, Verdana, sans-serif;
+    font-family: Arial, Verdana;
     background-color: #000000;
     color: #ffffff;
-    margin: 20px;
+    margin: 20px 20px 0 20px;
 }
 
 h1 {
     font-size: 42px;
     padding: 15px;
-    color: #C4C4C4;
+    text-align: center;
 }
 
 h2 {
     font-size: 30px;
-    color: #C4C4C4;
+    color: #0d0d0d;
 }
 
 p {
     font-size: 24px;
     padding: 10px 0 0 10px;
-    color: #707070;
+    color: #ffffff;
 }
 
 img {
     width: 250px;
-    position: center;
-    border:#ffffff 10px dashed;
+    display: block;
+    margin: auto;
+    border-style: dashed;
+    border-color: #ffffff;
+    border-width: 10px;
 }
 
 div {
     min-height: 125px;
     padding: 20px;
-    border: #ffffff 3px solid;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 3px;
 }
 
 .introduction {
@@ -45,32 +50,45 @@ div {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border: 0 0 2px 5px;
+    border-width: 0 0 2px 5px;
 }
 
 .blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border: 5px 2px 0 0;
+    border-width: 5px 2px 0 0;
+
+    p {
+        color: #C4C4C4;
+    }
+
+    h2 {
+        color: #C4C4C4;
+    }
 }
 
-.yellow{
+.yellow {
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border: 0 0 2px 5px;
+    border-width: 0 0 2px 5px;
+
+    p {
+        color: #707070;
+    }
 }
 
 .green {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border: 2px 5px 0 0
+    border-width: 2px 5px 0 0;
 }
 
 footer {
-    border: #ffffff 5px solid;
+    border-style: solid;
+    border-width: 5px;
     background-image: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000); 
     p {
         font-size: 20px;
